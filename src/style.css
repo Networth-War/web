@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #7EA589;
+    padding: 35px;
+}
+
+.app{
+    height: 100%;
+    width: 100%;
+    background-color: #111111;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.top{
+    height: 25%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+
+.top h2{
+    color: white;
+    font-family: montserrat;
+    font-size: 8vw;
+    font-weight: 450;
+}
+
+.bottom{
+    height: 75%;
+    width: 100%;
+    background-color: #00000090;
+    border-radius: 20px;
+    border: 1px solid #7EA589;
+    border-bottom: 5px solid #7EA589;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom h3{
+    color: white;
+    font-family: cardo;
+    font-size: 2.5vw;
+    font-weight: 450;
+    height: 20%;
+}
+
+.cards{
+    background-color: #ffffff20;
+    height: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    height: 100%;
+    width: 20%;
+    background-color: #7EA589;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.card>.img{
+    height: 60%;
+    width: 100%;
+    background-color: #ffffff80;
+    border-radius: 10px;
+}
+.card>.content{
+    padding: 10px;
+    width: 100%;
+}
+
+.card>.content>h4{
+    color: white;
+    font-family: montserrat;
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+.card>.content>p{
+    color: white;
+    font-family: montserrat;
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+.card button{
+    border: none;
+    width: 100%;
+    padding: 7px 0;
+    border-radius: 5px;
+    font-size: 1vw;
+    font-family: montserrat;
+    font-weight: 500;
+}
